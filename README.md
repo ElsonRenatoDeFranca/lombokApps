@@ -5,15 +5,15 @@ still don't have such an @MandatoryField or @OptionalField annotation. If we wan
 
 1- Use the @RequiredArgsConstructor annoation and decorate all non null properties by using the @NonNull annotation;
 
- @Getter
- @Setter
- @RequiredArgsConstructor
- public class Customer {
-    private String id;
-    @NonNull private String name;
-    @NonNull private Integer age;
-    @NonNull private String address;
- }
+@Getter
+@Setter
+@RequiredArgsConstructor
+public class Customer {
+   private String id;
+   @NonNull private String name;
+   @NonNull private Integer age;
+   @NonNull private String address;
+}
  
  This can be translated into Vanilla Java like this
  
