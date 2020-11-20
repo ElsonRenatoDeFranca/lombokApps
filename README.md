@@ -23,7 +23,7 @@ Currently the Lombok project doesn't support the abstraction of creating an obje
         private String address;
        
         public Customer (String id){
-	   this.id = id;
+	     this.id = id;
 	}
 	
         public Customer(String name) {
