@@ -22,9 +22,9 @@ Currently the Lombok project doesn't support the abstraction of creating an obje
         private Integer age;
         private String address;
        
-        public Customer (String id){
+         public Customer (String id){
 	     this.id = id;
-	}
+	 }
 	
         public Customer(String name) {
            if (description == null) throw new NullPointerException("Name is null but it was supposed to be not null");
